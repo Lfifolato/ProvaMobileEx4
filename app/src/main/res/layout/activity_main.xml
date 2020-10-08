@@ -53,12 +53,12 @@
         android:text="Numero é Par ?"
         android:textColor="#0C0C0C"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/txtPar"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintHorizontal_bias="0.208"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtNum"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.221" />
 
     <TextView
         android:id="@+id/textView4"
